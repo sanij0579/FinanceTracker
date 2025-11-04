@@ -15,9 +15,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-uic9-r&5zye@etr&&!jtp
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 # ⚠️ Replace with your Render domain after first deploy
-ALLOWED_HOSTS = ['finance-trackers.onrender.com', 'localhost']
-
-CSRF_TRUSTED_ORIGINS = ['https://finance-trackers.onrender.com']
+ALLOWED_HOSTS = ['financetracker-mimm.onrender.com', 'localhost']
+CSRF_TRUSTED_ORIGINS = ['https://financetracker-mimm.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
@@ -93,3 +92,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = 'login'
+

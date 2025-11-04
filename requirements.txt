@@ -7,3 +7,7 @@ openpyxl==3.1.5
 sqlparse==0.5.3
 tablib==3.8.0
 tzdata==2025.2
+gunicorn
+whitenoise
+dj-database-url
+psycopg2-binary
